@@ -9,12 +9,7 @@
 
 目前重点开发 **FitLog**：把 Markdown 日记、Android 文件访问、编辑状态和数据分析连接起来。我关注功能背后的状态变化、数据保护和失败处理，也在 PetChat 中实践流式聊天与后台任务。
 
-## <picture>
-  <source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/section-1-dark-compact.svg">
-  <source media="(max-width: 620px)" srcset="assets/section-1-light-compact.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/section-1-dark.svg">
-  <img src="assets/section-1-light.svg" width="100%" alt="项目中实践的能力">
-</picture>
+## <picture>  <source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/section-1-dark-compact.svg">  <source media="(max-width: 620px)" srcset="assets/section-1-light-compact.svg">  <source media="(prefers-color-scheme: dark)" srcset="assets/section-1-dark.svg">  <img src="assets/section-1-light.svg" width="100%" alt="项目中实践的能力"></picture>
 
 <picture>
   <source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/skills-1-dark-compact.svg">
@@ -30,12 +25,7 @@
   <img src="assets/skills-2-light.svg" width="100%" alt="Network &amp; coroutines: Streaming responses and async work. Ktor / Retrofit / OkHttp in projects. · Tests &amp; build: Repository and ViewModel test cases. Gradle, lint and a CI workflow.">
 </picture>
 
-## <picture>
-  <source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/section-2-dark-compact.svg">
-  <source media="(max-width: 620px)" srcset="assets/section-2-light-compact.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/section-2-dark.svg">
-  <img src="assets/section-2-light.svg" width="100%" alt="精选项目">
-</picture>
+## <picture>  <source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/section-2-dark-compact.svg">  <source media="(max-width: 620px)" srcset="assets/section-2-light-compact.svg">  <source media="(prefers-color-scheme: dark)" srcset="assets/section-2-dark.svg">  <img src="assets/section-2-light.svg" width="100%" alt="精选项目"></picture>
 
 <a href="https://github.com/POLARIS0824/FitLog">
 <picture>
@@ -79,12 +69,7 @@
 
 实现与测试：[实现与来源说明](https://github.com/POLARIS0824/Quick-Switcher/blob/main/README.md) · [上游 Lumno](https://github.com/kubai087/lumno-extension)
 
-## <picture>
-  <source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/section-3-dark-compact.svg">
-  <source media="(max-width: 620px)" srcset="assets/section-3-light-compact.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/section-3-dark.svg">
-  <img src="assets/section-3-light.svg" width="100%" alt="项目技术栈">
-</picture>
+## <picture>  <source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/section-3-dark-compact.svg">  <source media="(max-width: 620px)" srcset="assets/section-3-light-compact.svg">  <source media="(prefers-color-scheme: dark)" srcset="assets/section-3-dark.svg">  <img src="assets/section-3-light.svg" width="100%" alt="项目技术栈"></picture>
 
 <picture>
   <source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/stack-dark-compact.svg">
@@ -93,12 +78,7 @@
   <img src="assets/stack-light.svg" width="100%" alt="项目技术栈：Kotlin, Java, JavaScript, Compose, ViewModel, Navigation 3, WorkManager, Room, DataStore, SAF, Coroutines / Flow, Ktor, Retrofit, OkHttp, JUnit, Git / Gradle">
 </picture>
 
-## <picture>
-  <source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/section-4-dark-compact.svg">
-  <source media="(max-width: 620px)" srcset="assets/section-4-light-compact.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/section-4-dark.svg">
-  <img src="assets/section-4-light.svg" width="100%" alt="联系与交流">
-</picture>
+## <picture>  <source media="(max-width: 620px) and (prefers-color-scheme: dark)" srcset="assets/section-4-dark-compact.svg">  <source media="(max-width: 620px)" srcset="assets/section-4-light-compact.svg">  <source media="(prefers-color-scheme: dark)" srcset="assets/section-4-dark.svg">  <img src="assets/section-4-light.svg" width="100%" alt="联系与交流"></picture>
 
 [GitHub](https://github.com/POLARIS0824) · [Android 项目](https://github.com/POLARIS0824/FitLog) · [项目交流](https://github.com/POLARIS0824/FitLog/issues)
 

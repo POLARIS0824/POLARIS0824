@@ -219,17 +219,17 @@ def build(root):
                 w,h,body=fn(compact)
                 (assets/f'{name}-{theme}{"-compact" if compact else ""}.svg').write_text(svg(w,h,title,body,palette,animated),encoding='utf-8')
     blocks=[picture('hero','POLARIS · Android 客户端开发 · 寻找 Android 实习'),data['intro'],data['focus']]
-    blocks.append('## '+picture('section-1','项目中实践的能力'))
+    blocks.append('## '+picture('section-1','项目中实践的能力').replace('\n',''))
     for i in range(2):blocks.append(picture(f'skills-{i+1}',' · '.join(s['title']+': '+' '.join(s['lines']) for s in data['skills'][i*2:i*2+2])))
-    blocks.append('## '+picture('section-2','精选项目'))
+    blocks.append('## '+picture('section-2','精选项目').replace('\n',''))
     for i,item in enumerate(data['projects']):
         url=f'https://github.com/{data["username"]}/{item["repo"]}'
         blocks.append(f'<a href="{url}">\n'+picture(f'project-{i+1}',item['name']+'. '+' '.join(item['lines']))+'\n</a>')
         blocks.append('\n'.join('- '+line for line in item['details']))
         blocks.append('实现与测试：'+' · '.join(f'[{label}]({url})' for label,url in item['evidence']))
-    blocks.append('## '+picture('section-3','项目技术栈'))
+    blocks.append('## '+picture('section-3','项目技术栈').replace('\n',''))
     blocks.append(picture('stack','项目技术栈：'+', '.join(', '.join(row[1:]) for row in data['stack_rows'])))
-    blocks.append('## '+picture('section-4','联系与交流'))
+    blocks.append('## '+picture('section-4','联系与交流').replace('\n',''))
     blocks.append(f'[GitHub](https://github.com/{data["username"]}) · [Android 项目](https://github.com/{data["username"]}/FitLog) · [项目交流](https://github.com/{data["username"]}/FitLog/issues)')
     if data.get('contact_email'):blocks.append(f'求职联系：[{data["contact_email"]}](mailto:{data["contact_email"]})')
     blocks.append(data['contact_text'])
